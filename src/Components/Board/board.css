@@ -1,0 +1,31 @@
+.board {
+    color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(3, 6rem); */
+    /* border: 2px solid red; */
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+  }
+  
+  @media screen and (max-width: 330px) {
+    .board{
+      width: 250px;
+      height:250px;
+      gap: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 372px) {
+    .board{
+      width: 250px;
+      height:250px;
+      gap: 5px;
+    }
+    .text{
+      font-size: larger;
+    }
+  }
